@@ -604,11 +604,11 @@ progress {
 }
 
 .img-thumbnail {
-  padding: 0.25rem;
+  padding: 0.05rem;
   background-color: #fff;
-  border: 1px solid #dee2e6;
-  border-radius: 0.25rem;
-  max-width: 100%;
+  border: .5px solid #dee2e6;
+  border-radius: 0.10rem;
+  max-width: 60%;
   height: auto;
 }
 
@@ -5056,7 +5056,7 @@ textarea.form-control-lg {
   flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
-  border-radius: 0.25rem;
+  border-radius: 0.10rem;
 }
 
 .list-group-numbered {
@@ -5087,11 +5087,11 @@ textarea.form-control-lg {
 .list-group-item {
   position: relative;
   display: block;
-  padding: 0.5rem 1rem;
+  padding: 0.25rem .5rem;
   color: #212529;
   text-decoration: none;
   background-color: #fff;
-  border: 1px solid rgba(0, 0, 0, 0.125);
+  border: .75px solid rgba(0, 0, 0, 0.125);
 }
 .list-group-item:first-child {
   border-top-left-radius: inherit;
@@ -5255,7 +5255,7 @@ textarea.form-control-lg {
     margin-top: 0;
   }
   .list-group-horizontal-xxl > .list-group-item + .list-group-item {
-    border-top-width: 1px;
+    border-top-width: .75px;
     border-left-width: 0;
   }
   .list-group-horizontal-xxl > .list-group-item + .list-group-item.active {
@@ -11289,8 +11289,19 @@ textarea.form-control-lg {
   font-size: 1.2rem;
 }
 
+#sidebar-wrapper .sidebar-heading-item {
+
+  position: relative;
+  display: block;
+  padding: 0.25rem .5rem;
+  color: #212529;
+  text-decoration: none;
+  background-color: #fff;
+  border: .75px solid rgba(0, 0, 0, 0.125)
+}
+
 #sidebar-wrapper .list-group {
-  width: 15rem;
+  width: 14rem;
 }
 
 #page-content-wrapper {
