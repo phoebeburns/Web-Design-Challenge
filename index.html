@@ -17,7 +17,8 @@
         <div class="d-flex" id="wrapper">
             <!-- Sidebar-->
             <div class="border-end bg-white" id="sidebar-wrapper">
-                <div class="sidebar-heading border-bottom bg-light">Latitude...
+                <div class="sidebar-heading border-bottom bg-light">
+                    <a href="index.html"> Latitude...</a>
                 </div>
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="MaxTemperature.html">v. Max Temperature
@@ -29,7 +30,7 @@
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="Cloudiness.html">v. Cloudiness
                         <img src="assets/Fig3.png" alt="..." class="img-thumbnail">
                     </a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="Cloudiness.html">v. Wind Speed
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="WindSpeed.html">v. Wind Speed
                         <img src="assets/Fig4.png" alt="..." class="img-thumbnail">
                     </a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="CompareChart.html">Chart Comparison</a>
@@ -41,8 +42,11 @@
                 <!-- Top navigation-->
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <div class="container-fluid">
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <button class="btn btn-primary" id="sidebarToggle">Toggle Menu</button>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li class= "nav-item "><a class = "nav-link"></a></li>
                                 <li class="nav-item active"><a class="nav-link" href="index.html">Home</a></li>
                                 <li class="nav-item active"><a class="nav-link" href="CompareChart.html">Chart Comparison</a></li>
                                 <li class="nav-item active"><a class="nav-link" href="CityWeatherTable.html">Data</a></li>
